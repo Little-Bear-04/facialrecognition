@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navigation from './Components/Navigation/Navigation';
-import SignIn from './Components/SignIn/SignIn';
-import Register from './Components/Register/Register';
-import FacialRecognition from './Components/FacialRecognition/FacialRecognition';
-import Logo from './Components/Logo/Logo';
-import ImageLinkForm from './Components/ImageLinkForm/ImageLinkForm';
-import Rank from './Components/Rank/Rank';
+import Navigation from './Components/Navigation/Navigation.js';
+import SignIn from './Components/SignIn/SignIn.js';
+import Register from './Components/Register/Register.js';
+import FacialRecognition from './Components/FacialRecognition/FacialRecognition.js';
+import Logo from './Components/Logo/Logo.js';
+import ImageLinkForm from './Components/ImageLinkForm/ImageLinkForm.js';
+import Rank from './Components/Rank/Rank.js';
 import ParticlesBg from 'particles-bg';
-import fetch from 'node-fetch';
+//import fetch from 'node-fetch';
 
 window.process = {}
 
