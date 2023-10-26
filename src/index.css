@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Calibri', 'Arial';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(101,51,136);
+  background: linear-gradient(90deg, rgba(101,51,136,1) 42%, rgba(11,49,198,1) 100%);
+}
+
+button { 
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
