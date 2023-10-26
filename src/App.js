@@ -65,7 +65,7 @@ class App extends Component {
 
 onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-    fetch('http://localhost:3000/imageurl', {
+    fetch('https://facial-recognition-back-end.onrender.com', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify ({
@@ -76,7 +76,7 @@ onButtonSubmit = () => {
       //Clarifai.FACE_DETECT_MODEL,
       .then(response => {
         if (response) {
-          fetch('http://localhost:3000/image', {
+          fetch('https://facial-recognition-back-end.onrender.com', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify ({
