@@ -8,6 +8,7 @@ import Logo from './Components/Logo/Logo';
 import ImageLinkForm from './Components/ImageLinkForm/ImageLinkForm';
 import Rank from './Components/Rank/Rank';
 import ParticlesBg from 'particles-bg';
+import fetch from 'node-fetch';
 
 window.process = {}
 
