@@ -77,7 +77,7 @@ onButtonSubmit = () => {
       //Clarifai.FACE_DETECT_MODEL,
       .then(response => {
         if (response) {
-          fetch('https://facial-recognition-back-end.onrender.com', {
+          fetch('https://facial-recognition-back-end.onrender.com/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify ({
